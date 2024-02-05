@@ -1,0 +1,122 @@
+/* Html and body css styling*/
+html{
+    background-color: rgb(224, 224, 59);
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+/* Main header text styling */
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+}
+
+.story{
+    margin-top: 75px;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+/* Positions of the verbs when button is clicked*/
+#choosenNoun1{
+    position: absolute;
+    padding-left: 100px;
+}
+
+#choosenVerb{
+    position: absolute;
+    padding-left: 450px;
+}
+
+#choosenAdjective{
+    position: absolute;
+    padding-left: 800px;
+}
+
+#choosenNoun2{
+    position: absolute;
+    padding-left: 1150px;
+}
+
+#choosenSetting{
+    position: absolute;
+    padding-left: 1450px;
+}
+
+/* Styling for all the main buttons */
+.words button{
+    padding: 60px 45px;
+    border: solid 2px #0e0e0e;
+    text-decoration: none;
+    color: #0e0e0e;
+    transition: all .25s ease-in-out;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 200px;
+    margin: auto;
+    box-shadow: 0 9px #999;
+}
+
+/*Makes the buttons change color when hovered over to their specific background color */
+.words > div > button:hover:nth-child(1){background-color: #c73fdc}
+.words > div > button:hover:nth-child(2){background-color: #70daf5}
+.words > div > button:hover:nth-child(3){background-color: #6ef45f}
+.words > div > button:hover:nth-child(4){background-color: #f0a153}
+.words > div > button:hover:nth-child(5){background-color: #f590e8}
+
+/* Animation for button when clicked*/
+.words > div > button:active {
+  background-color: #0a0b0a;
+  box-shadow: 0 5px #a09e9e;
+  transform: translateY(4px);
+  color: aliceblue;
+}
+
+div{
+    display: flex;
+    padding: 10px;
+}
+
+/*Styling for bottom two buttons  */
+.output button{
+    padding: 20px 25px;
+    border: solid 2px #0e0e0e;
+    color: #0e0e0e;
+    transition: all .25s ease-in-out;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin: auto;
+    border-radius: 200px;
+    box-shadow: 0 6px #999;
+}
+
+.output > div > button:active {
+    background-color: #0a0b0a;
+    box-shadow: 0 5px #a09e9e;
+    transform: translateY(4px);
+    color: aliceblue;
+  }
+
+.output > div > button:hover:nth-child(1){background-color: #198c0f}
+.output > div > button:hover:nth-child(2){background-color: #cac8c8}
+.output > div > button:hover:nth-child(3){background-color: #b01b0e}
+
+.output p{
+    text-align: center;
+    font-size: 40px;
+}
+
+#student{
+    position: absolute;
+    padding-left: 575px;
+    margin-top: 100px;
+}
+
+
+
+
